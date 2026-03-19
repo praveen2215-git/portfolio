@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Praveen A Portfolio</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #fff;
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.hero {
+    background: linear-gradient(to right, #1e293b, #020617);
+}
+.hero h1 {
+    font-size: 28px;
+    font-style: italic;
+}
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.projects a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+.carousel-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+.carousel img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+footer {
+    background: #020617;
+    padding: 20px;
+}
+footer a {
+    color: #38bdf8;
+    margin: 0 10px;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+    <h1>"Nothing in life is to be feared, it is only to be understood." - Marie Curie</h1>
+    <img src="your-image.jpg" alt="Praveen">
+    <h2>Hi, I'm Praveen A</h2>
+    <p>Aeronautical Engineering student passionate about design, aerodynamics, and analysis of aerospace systems.</p>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+    <p><strong>Propeller Test Rig with Aeroacoustics Monitoring</strong></p>
+    <p>Designed a system to analyze thrust, torque, RPM and noise characteristics.</p>
+    <a href="https://github.com/praveen2215-git" target="_blank">View Project on GitHub</a>
+</section>
+
+<section>
+    <h2>Certifications</h2>
+    <div class="carousel">
+        <div class="carousel-track">
+            <a href="#"><img src="cert1.jpg"></a>
+            <a href="#"><img src="cert2.jpg"></a>
+            <a href="#"><img src="cert3.jpg"></a>
+            <a href="#"><img src="cert1.jpg"></a>
+            <a href="#"><img src="cert2.jpg"></a>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Interests & Hobbies</h2>
+    <p>Aerodynamic Design, UAV Development, Space Technology, Listening to Music, Exploring New Technologies</p>
+</section>
+
+<footer>
+    <p>Connect with me:</p>
+    <a href="mailto:praveenanubu@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/praveen2215a" target="_blank">LinkedIn</a>
+    <a href="https://github.com/praveen2215-git" target="_blank">GitHub</a>
+</footer>
+
+</body>
+</html>
